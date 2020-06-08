@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.login(process.env.TOKEN);
 
-var prefix = ("a!");
+var prefix = ("?");
 
 client.on("message", (message) => {
     if(message.content === "TG") {
